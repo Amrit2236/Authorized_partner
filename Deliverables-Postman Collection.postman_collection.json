@@ -1,0 +1,85 @@
+{
+  "info": {
+    "_postman_id": "6483c2e8-f9a3-4d4c-97a9-687158c665e6",
+    "name": "Deliverables-Postman Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52248955",
+    "_collection_link": "https://go.postman.co/collection/52248955-6483c2e8-f9a3-4d4c-97a9-687158c665e6?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Positive Scenarios",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{TypicodeURL}}/comments?Create employee\n",
+          "host": [
+            "{{TypicodeURL}}"
+          ],
+          "path": [
+            "comments"
+          ],
+          "query": [
+            {
+              "key": "Create employee\n",
+              "value": null
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Retrive employee",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{TypicodeURL}}/comments?Retrieve employee&sagar=600",
+          "host": [
+            "{{TypicodeURL}}"
+          ],
+          "path": [
+            "comments"
+          ],
+          "query": [
+            {
+              "key": "Retrieve employee",
+              "value": null
+            },
+            {
+              "key": "sagar",
+              "value": "600",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "-\tAssign training",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{TypicodeURL}}/comments?Assign training",
+          "host": [
+            "{{TypicodeURL}}"
+          ],
+          "path": [
+            "comments"
+          ],
+          "query": [
+            {
+              "key": "Assign training",
+              "value": null
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

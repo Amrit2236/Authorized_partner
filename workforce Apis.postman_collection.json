@@ -1,0 +1,198 @@
+{
+  "info": {
+    "_postman_id": "de31af3e-2316-4b69-b193-dee8448b8436",
+    "name": "workforce Apis",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52248955",
+    "_collection_link": "https://go.postman.co/collection/52248955-de31af3e-2316-4b69-b193-dee8448b8436?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Employees",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "employee",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{TypicodeURL}}/comments?DELETE /api/employees/{id}&Id=50",
+          "host": [
+            "{{TypicodeURL}}"
+          ],
+          "path": [
+            "comments"
+          ],
+          "query": [
+            {
+              "key": "DELETE /api/employees/{id}",
+              "value": null
+            },
+            {
+              "key": "Id",
+              "value": "50",
+              "description": "student",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "employee",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "{{TypicodeURL}}/comments?POST /api/employees=500",
+          "host": [
+            "{{TypicodeURL}}"
+          ],
+          "path": [
+            "comments"
+          ],
+          "query": [
+            {
+              "key": "POST /api/employees",
+              "value": "500"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "employee",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{TypicodeURL}}/comments?DELETE /api/employees/{id}&ID=60",
+          "host": [
+            "{{TypicodeURL}}"
+          ],
+          "path": [
+            "comments"
+          ],
+          "query": [
+            {
+              "key": "DELETE /api/employees/{id}",
+              "value": null
+            },
+            {
+              "key": "ID",
+              "value": "60",
+              "description": "Sewa",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Training",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{TypicodeURL}}/comments?api/trainings/complete&ID=300",
+          "host": [
+            "{{TypicodeURL}}"
+          ],
+          "path": [
+            "comments"
+          ],
+          "query": [
+            {
+              "key": "api/trainings/complete",
+              "value": null
+            },
+            {
+              "key": "ID",
+              "value": "300",
+              "description": "abcd",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "traning",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{TypicodeURL}}/comments?api/trainings/complete&ID=300",
+          "host": [
+            "{{TypicodeURL}}"
+          ],
+          "path": [
+            "comments"
+          ],
+          "query": [
+            {
+              "key": "api/trainings/complete",
+              "value": null
+            },
+            {
+              "key": "ID",
+              "value": "300",
+              "description": "abcd"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "traning",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{TypicodeURL}}/comments?api/trainings/approve&ID=4999&anil=40000",
+          "host": [
+            "{{TypicodeURL}}"
+          ],
+          "path": [
+            "comments"
+          ],
+          "query": [
+            {
+              "key": "api/trainings/approve",
+              "value": null
+            },
+            {
+              "key": "ID",
+              "value": "4999",
+              "description": "employee"
+            },
+            {
+              "key": "anil",
+              "value": "40000",
+              "description": "123",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "TypicodeURL",
+      "value": "",
+      "type": "default"
+    }
+  ]
+}
